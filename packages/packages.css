@@ -1,0 +1,58 @@
+.main {
+  padding-top: 32px;
+}
+
+.package--no-underline {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+
+.package {
+  background: #c3ffd3;
+  border: #0e4f1f 4px solid;
+  width: 80%;
+  margin: 16px 0;
+  border-left: none;
+}
+
+.package:hover,
+.package:active {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-color: #ff5454;
+}
+.package__title {
+  color: black;
+}
+
+.package__subtitle {
+  color: #929292;
+}
+
+.package__description {
+  background: white;
+  padding: 16px;
+  border: #0e4f1f 1px solid;
+  font-size: 20pt;
+  color: #0e4f1f;
+}
+
+#plus {
+  background: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+  background: rgba(234, 252, 237, 0.95);
+}
+#premium {
+  background: rgba(14, 79, 31, 0.95);
+}
+
+#premium .package__title {
+  color: white;
+}
+
+#premium .package__subtitle {
+  color: #bbb;
+}
