@@ -34,8 +34,11 @@
   background: white;
   padding: 16px;
   border: #0e4f1f 1px solid;
-  font-size: 20pt;
   color: #0e4f1f;
+}
+
+.clearfix {
+  clear: both;
 }
 
 #plus {
@@ -44,7 +47,17 @@
 
 #free {
   background: rgba(234, 252, 237, 0.95);
+  float: right;
+  border-right: none;
+  border-left: 4px solid #0e4f1f;
+  text-align: right;
 }
+
+#free:active,
+#free:hover {
+  border-left-color: #ff5454;
+}
+
 #premium {
   background: rgba(14, 79, 31, 0.95);
 }
