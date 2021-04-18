@@ -1,7 +1,12 @@
 #product-overview {
-  background-image: url("https://stackblitz.com/files/css-project/github/wkoeter/css-training/master/freedom.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("https://stackblitz.com/files/css-project/github/wkoeter/css-training/master/freedom.jpg")
+    left 10% bottom 20% / cover no-repeat border-box padding-box;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: left 10% bottom 20%; */
+  /* background-origin: border-box; */
+  /* background-clip: padding-box; */
+  border: 4px red dashed;
   width: 100%;
   margin-top: 43px;
   height: 528px;
