@@ -2,6 +2,12 @@
   padding-top: 32px;
 }
 
+.background {
+  background: url("../images/plans-background.jpg");
+  width: 500px;
+  height: 500px;
+}
+
 .package--no-underline {
   text-decoration: none;
   color: inherit;
