@@ -1,8 +1,12 @@
 #product-overview {
-  background: url("https://stackblitz.com/files/css-project/github/wkoeter/css-training/master/freedom.jpg");
+  background-image: url("https://stackblitz.com/files/css-project/github/wkoeter/css-training/master/freedom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
+  margin-top: 43px;
   height: 528px;
   padding: 10px;
+  position: relative;
 }
 
 .section-title {
@@ -13,6 +17,9 @@
 #product-overview h1 {
   color: white;
   font-family: "Anton", sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
 }
 
 .plan__list {
