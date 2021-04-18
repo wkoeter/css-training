@@ -3,9 +3,11 @@
 }
 
 .background {
-  background: url("../images/plans-background.jpg");
-  width: 500px;
-  height: 500px;
+  background: url("https://stackblitz.com/files/css-project/github/wkoeter/css-training/master/images/plans-background.jpg");
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
 }
 
 .package--no-underline {
