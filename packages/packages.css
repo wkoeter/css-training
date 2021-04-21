@@ -3,7 +3,9 @@ main {
 }
 
 .background {
-  background: url("https://stackblitz.com/files/css-project/github/wkoeter/css-training/master/images/plans-background.jpg");
+  background: url("https://stackblitz.com/files/css-project/github/wkoeter/css-training/master/images/plans-background.jpg")
+    center/cover;
+  filter: grayscale(40%);
   width: 100%;
   height: 100%;
   position: fixed;
