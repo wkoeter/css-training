@@ -29,8 +29,8 @@ backdrop.addEventListener("click", function() {
 });
 
 function closeModal() {
-  if(modal){
-close(modal);
+  if (modal) {
+    close(modal);
   }
   close(backdrop);
 }
