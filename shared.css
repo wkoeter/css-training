@@ -65,9 +65,9 @@ main {
   text-decoration: none;
   font-weight: bold;
   height: 2.5rem;
-  vertical-align: middle;
   /* width: 20px; */
   display: inline-block;
+  vertical-align: middle;
 }
 
 .main-header__brand img {
@@ -77,9 +77,6 @@ main {
 
 .main-nav {
   display: none;
-  text-align: right;
-  width: calc(100% - 122px);
-  vertical-align: middle;
 }
 
 .main-nav__items {
@@ -122,6 +119,19 @@ main {
   color: #ff1b68;
   background: white;
   border: none;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 44px);
+    vertical-align: middle;
+  }
 }
 
 .main-footer {
@@ -176,7 +186,6 @@ main {
   margin: 1rem 0;
 }
 
-.mobile-nav__item a,
 .mobile-nav__item a {
   font-size: 1.5rem;
 }
@@ -202,72 +211,11 @@ main {
   outline: none;
 }
 
-.modal {
-  position: fixed;
-  display: none;
-  z-index: 200;
-  top: 20%;
-  left: 30%;
-  width: 40%;
-  background: white;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
-.modal__title {
-  text-align: center;
-  margin: 0 0 1rem 0;
-}
-
-.modal__actions {
-  text-align: center;
-}
-
-.modal__action {
-  border: 1px solid #0e4f1f;
-  background: #0e4f1f;
-  text-decoration: none;
-  color: white;
-  font: inherit;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
-
-.modal__action:hover,
-.modal__action:active {
-  background: #2ddf5c;
-  border-color: #2ddf5c;
-}
-
-.modal__action--negative {
-  background: red;
-  border-color: red;
-}
-
-.modal__action--negative:hover,
-.modal__action--negative:active {
-  background: #ff5454;
-  border-color: #ff5454;
-}
-
 .open {
-  display: block;
+  display: block !important;
 }
 
 @media (min-width: 40rem) {
-  .toggle-button {
-    display: none;
-  }
-
-  .toggle-button {
-    display: none;
-  }
-
-  .main-nav {
-    display: inline-block;
-  }
-
   .main-footer__link {
     display: inline-block;
     margin: 0 1rem;
